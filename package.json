@@ -1,0 +1,22 @@
+{
+  "name": "hue_app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node --loader ts-node/esm.mjs --experimental-top-level-await index.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "got": "^11.3.0",
+    "lodash": "^4.17.15"
+  },
+  "devDependencies": {
+    "@types/got": "^9.6.11",
+    "@types/lodash": "^4.14.157",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.5"
+  }
+}

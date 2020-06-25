@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "strict": true,
+    "allowSyntheticDefaultImports": true,
+    "lib": [
+      "esnext",
+      "dom"
+    ],
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "noImplicitAny": false
+  },
+  "include": [
+    "packages/**/*",
+    ".eslintrc.js",
+    ".prettierrc.js"
+  ],
+  "exclude": [
+    "**/node_modules/*"
+  ]
+}
